@@ -6,7 +6,8 @@
 LED를 점등시켜 사용자에게 타건위치를 표시해줌으로써 건반과 음계의 상관관계를 숙지할 수 있도록 구현하였다.
 
 # 프로젝트 시연 영상
-![시연영상](https://youtu.be/KNcZKLKFneQ) 
+[![Video Lavel](https://youtu.be/KNcZKLKFneQ/0.jpg)]
+(https://youtu.be/KNcZKLKFneQ) Video Lavel
 
 # 프로젝트 정보
 ## 필요 재료
@@ -38,6 +39,6 @@ AdafruitLedStrip
 14학번 조예찬, 송기석, 민재홍, 13학번 이범희
 
 # 참고
-J.-O. Koo and J.-H Ahn, "Musical Instrument Interface Using the Real-time arrangement of notes" In Proc. Human Computer Interation(HCI)
-G.-J. Lim and J.-C. Lee, "Development of a Self Instrument Learning Tool Using an Electronic Keyboard and PC Software" J. of Korea Multimedia Society
+J.-O. Koo and J.-H Ahn, "Musical Instrument Interface Using the Real-time arrangement of notes" In Proc. Human Computer Interation(HCI)  
+G.-J. Lim and J.-C. Lee, "Development of a Self Instrument Learning Tool Using an Electronic Keyboard and PC Software" J. of Korea Multimedia Society  
 박용욱, LED를 이용한 기타 운지법에 대한 연구, 한국전자통신학회논문지
