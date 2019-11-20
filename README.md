@@ -6,13 +6,13 @@
 LED를 점등시켜 사용자에게 타건위치를 표시해줌으로써 건반과 음계의 상관관계를 숙지할 수 있도록 구현하였다.
 
 # 프로젝트 시연 영상
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KNcZKLKFneQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![시연영상](https://youtu.be/KNcZKLKFneQ) 
 
 # 프로젝트 정보
 ## 필요 재료
 
-Arduino Uno
-Bluetooth Shield v2
+Arduino Uno  
+Bluetooth Shield v2  
 AdafruitLedStrip
 
 ## 시스템 구현 방법
@@ -21,23 +21,20 @@ AdafruitLedStrip
 시스템 구성도
 
 
-https://user-images.githubusercontent.com/31925002/69240652-4d8eb780-0be0-11ea-8108-57b8e1430242.png
-
-
-
+![시스템 흐름도](https://user-images.githubusercontent.com/31925002/69240652-4d8eb780-0be0-11ea-8108-57b8e1430242.png)
 시스템 흐름도
 
-![회로도]https://user-images.githubusercontent.com/31925002/69240654-4d8eb780-0be0-11ea-89ba-525d6f95be54.png
+![회로도](https://user-images.githubusercontent.com/31925002/69240654-4d8eb780-0be0-11ea-89ba-525d6f95be54.png)
 회로도
 
-![3dmodeling]https://user-images.githubusercontent.com/31925002/69240653-4d8eb780-0be0-11ea-8f39-29b6cb811c3a.png
+![3dmodeling](https://user-images.githubusercontent.com/31925002/69240653-4d8eb780-0be0-11ea-8f39-29b6cb811c3a.png)
 3d modeling
 
 # 
 
 # 프로젝트 기여자
-https://user-images.githubusercontent.com/31925002/69240649-4cf62100-0be0-11ea-8ca6-2b3547cb076c.png
-가톨릭관동대학교 정보통신공학과
+![기여자](https://user-images.githubusercontent.com/31925002/69240649-4cf62100-0be0-11ea-8ca6-2b3547cb076c.png)
+가톨릭관동대학교 정보통신공학과  
 14학번 조예찬, 송기석, 민재홍, 13학번 이범희
 
 # 참고
