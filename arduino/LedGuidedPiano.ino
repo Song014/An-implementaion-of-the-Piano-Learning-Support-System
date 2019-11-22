@@ -73,7 +73,7 @@ void LedOnOff(uint8_t id, uint8_t onOff)
   {
     if(onOff == 1)
     {
-      if(id > 39)
+      if(id > 46)
       {
         pixels.setPixelColor(id, pixels.Color(151, 117, 0));
       }
