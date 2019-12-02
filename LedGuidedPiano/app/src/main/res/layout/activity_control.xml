@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#3F51B5"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonList"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/button_list"
+                android:onClick="onButtonListClicked"/>
+
+            <Spinner
+                android:id="@+id/spinner_senders"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                android:entries="@array/senders" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPlay"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="80dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/button_play"
+                android:onClick="onButtonPlayClicked"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonStop"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/button_stop"
+                android:onClick="onButtonStopClicked"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonRepeat"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/button_repeat"
+                android:onClick="onButtonRepeatClicked"/>
+
+            <ImageButton
+                android:id="@+id/imageButtonGuide"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="#00FFFFFF"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/button_guide"
+                android:onClick="onButtonGuideClicked"/>
+
+            <Button
+                android:id="@+id/buttonTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Button"
+                android:textSize="10dp"
+                android:onClick="onButtonTestClicked"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewScore"
+                android:layout_width="600dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:contentDescription="score"
+                android:src="@drawable/note_level_1"/>
+
+            <ImageView
+                android:id="@+id/imageViewMark"
+                android:layout_width="10dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="-100dp"
+                android:layout_marginTop="60dp"
+                android:contentDescription="note mark"
+                android:scaleType="fitXY"
+                android:src="@drawable/mark" />
+
+            <TextView
+                android:id="@+id/textViewScoreTitle"
+                android:layout_width="400dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textViewPianoUsbLog"
+                android:layout_width="600dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="240dp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
